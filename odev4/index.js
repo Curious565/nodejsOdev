@@ -23,7 +23,7 @@ setTimeout(() => {
 setTimeout(() => {
   fs.appendFile(
     "employees.json",
-    '{"name": "Employee 2 Name", "salary": 5000}',
+    ',\n{"name": "Employee 2 Name", "salary": 5000}',
     "utf-8",
     (err) => {
       if (err) console.log(err);
